@@ -1,0 +1,32 @@
+.hero-menus{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg-menus.jpg);
+    background-position: center ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+
+    .hero-content-menus h1, h2{
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+
+.card-body{
+    background-color: $terciary-color;
+}
+
+.menus-cards-container{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+.col:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}

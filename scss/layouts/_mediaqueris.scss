@@ -1,0 +1,178 @@
+// SobreNosotros 
+@media (max-width: 770px) {
+    .cafe-sobre-nosotros {
+        display: none;
+    }
+
+    .img2-sobre-nosotros {
+        display: none;
+    }
+
+}
+
+//Encontranos
+@media (max-width: 740px){
+    .encontranos{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        justify-items: center;
+    }   
+
+    .card-header{
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card-2{
+      position: relative;
+      right: -110px;
+    }
+}
+
+@media (max-width: 657px){
+    .card-2{
+        position: relative;
+        right: -160px;
+    }
+}
+
+//Contacto
+@media (max-width: 740px) {
+    .hero-contact-img {
+        display: none;
+    }
+}
+
+//index
+@media (max-width: 770px){
+    .card-main, .card-main-content{
+        flex-direction: column;
+        height: 1500px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .card-main, .card-main-content {
+        flex-direction: column;
+        height: 1500px;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menu-index .hero-content{
+        margin: 0;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 770px){
+    .hero-img{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+   footer{
+    width: 100%;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: $cafe-color;
+   
+    
+   }
+
+   .nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: $cafe-color;
+   }
+}
+
+div.container{
+    padding: 0;
+}
+
+@media (max-width: 480px) {
+    .sobre-nosotros-p{
+        width: 250px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px){
+    .sobre-nosotros-h1{
+        padding-left: 25px;
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+    }
+
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+  
+}
+
+@media (max-width: 480px){
+    .form-control{
+        width: auto;
+        height: auto;
+        // width: 50px;
+    }
+}
+
+@media (max-width: 480px){
+    .card-2{
+        margin-top: 0;
+        position: relative;
+        right: -100px;
+    }
+}
+
+@media (max-width: 1300px){
+    .sobre-nosotros-container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        justify-items: center;
+    }
+
+    .cafe-sobre-nosotros{
+        display: none;
+    }
+
+    .sobre-nosotros-p{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    .hero-contact{    
+    flex-direction: column;
+    }
+
+    .hero-contact .form-control{
+        width: 350px;
+        margin: 0;
+    }
+
+    .mb3{
+        margin: 0!important;
+    }
+}
+

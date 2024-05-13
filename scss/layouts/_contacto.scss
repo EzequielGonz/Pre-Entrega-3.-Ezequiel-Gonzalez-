@@ -1,0 +1,41 @@
+//Uso de la propiedad "Extend"//
+.hero-contact {
+    display: flex;
+    @extend .flexcontainer;
+
+    .hero-contact-content {
+        margin-left: 35px;
+        padding: 0;
+        margin-top: 45px;
+    }
+
+    .form-control {
+        border: none;
+        border-radius: none;
+        background-color: $secondary-color;
+
+        width: 120px;
+
+        width: 180px;
+    }
+
+    .hero-contact-img {
+        @include img(90%, 80%, cover);
+    }
+    
+}
+
+.mb-3 {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+
+
+.form-control:hover {
+    background-color: $terciary-color;
+}
+
+.hero-contact .form-control{
+    width: 120px;
+}

@@ -1,0 +1,40 @@
+/* Encontranos */
+.encontranos{
+    @extend .flexcontainer;
+}
+
+.card-2{
+    border: none;
+    background-color:$secondary-color;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 20px;
+    margin-top: 5px;
+    gap: 0px;
+
+    .list-group-item{
+        background-color: $terciary-color;
+        
+    }
+
+    .list-group{
+        width: 250px;
+        margin: 10px 10px 10px 10px;
+    }    
+
+}
+
+.card-header{
+    font-size: 20px;
+}
+
+.h2-encontranos{
+    text-align: center;
+    background-color: $primary-color;
+    padding: 10px;
+    margin: 0;
+}
+/* Encontranos */
+

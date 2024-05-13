@@ -1,0 +1,14 @@
+// Uso de la propiedad "Extend" //
+.flexcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Uso de la propiedad "Mixin" //
+  @mixin img($width, $height, $object){
+    width: $width;
+    height: $height;
+    object-fit: $object;
+  }
+//Tutor, tengo pocas propiedades las cuales utilizar el mixin y el extend! por esa razon, hay solo uno de cada uno

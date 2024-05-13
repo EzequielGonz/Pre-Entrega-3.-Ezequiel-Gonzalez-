@@ -1,0 +1,200 @@
+
+.menu-index {
+    background-color: $primary-color;
+}
+
+
+
+.menu-index{
+    background-color: $primary-color;
+}
+
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $primary-color;
+    }
+
+
+    .inicio-h1 {
+
+    
+    .inicio-h1{
+
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+        padding-top: 50px;
+    }
+    
+    .inicio-h2{
+
+        font-size: 25px;
+        position: relative;
+        left: -1px;
+        font-family: "Poppins", sans-serif;
+
+
+    }
+
+    .inicio-p {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .hero-content {
+        padding-left: 100px;
+
+    }
+
+    .hero-img {
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    
+    .inicio-p{
+       font-family: "Poppins", sans-serif;
+    }
+    
+    .hero-content{
+        padding-left: 100px;
+    
+    }
+    
+    .hero-img{
+        height: 500px;
+        margin-top: 30px;
+    }
+    
+    .hero-img img{
+
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 770px){
+    .hero-img{
+        display: none;
+    }
+    
+    .inicio-h2{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      left: -90px;
+      top: 0;
+    }
+
+}
+
+
+
+
+.inicio-h2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -90px;
+    top: 0;
+}
+
+.h-100{
+
+    border-radius: 0px;
+    border: 1.5px solid $secondary-color;
+}
+
+
+
+
+.card-main, .card-main-content{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    margin: 0px;
+    gap: 200px;
+    margin-top: 13px;
+    position: relative;
+    width: 97vw;
+    height: 100vh;
+
+    margin-left: 10px;}
+
+
+    .card-title{
+
+    // margin-left: 10px;
+    padding-left: 15px;}
+
+    .card-title{
+
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+    }
+
+
+    .card-text {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .h-100 {
+        background-color: $terciary-color;
+    }
+
+    .card-img-top {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .h-100 {
+
+    .card-text{
+        font-family: "Poppins", sans-serif;
+    }
+
+    .h-100{
+        background-color: $terciary-color;
+    }
+
+    .card-img-top{
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .card-title{
+        font-size: 25px;
+    }
+
+    .h-100{
+
+        height: 100%;
+    }
+}
+
+
+
+
+
+footer{
+    text-decoration: none;
+    background-color: $cafe-color;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+
+
