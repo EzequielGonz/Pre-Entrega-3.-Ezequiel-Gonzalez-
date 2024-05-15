@@ -106,11 +106,13 @@ nav .navbar {
 .inicio-h1 .hero-content {
   padding-left: 100px;
 }
-.inicio-h1 .hero-img {
+
+.hero-img {
   height: 500px;
   margin-top: 30px;
 }
-.inicio-h1 .hero-img img {
+
+.hero-img img {
   width: 80%;
   height: 80%;
   object-fit: contain;
@@ -132,7 +134,7 @@ nav .navbar {
   margin: 0;
   padding: 0;
   position: relative;
-  left: -90px;
+  left: px;
   top: 0;
 }
 
@@ -539,6 +541,17 @@ div.container {
   }
   .mb3 {
     margin: 0 !important;
+  }
+}
+@media (max-width: 480px) {
+  .inicio-h1 {
+    padding-left: 12px;
+  }
+  .inicio-h2 {
+    padding-left: 100px;
+  }
+  .inicio-p {
+    padding-left: 12px;
   }
 }
 

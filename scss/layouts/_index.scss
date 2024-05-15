@@ -18,8 +18,6 @@
 
 
     .inicio-h1 {
-
-    
     .inicio-h1{
 
         font-size: 50px;
@@ -49,6 +47,7 @@
     .hero-img {
         height: 500px;
         margin-top: 30px;
+        
     }
 
     
@@ -61,18 +60,17 @@
     
     }
     
-    .hero-img{
-        height: 500px;
-        margin-top: 30px;
-    }
-    
-    .hero-img img{
+}
 
-        width: 80%;
-        height: 80%;
-        object-fit: contain;
-    }
+.hero-img{
+    height: 500px;
+    margin-top: 30px;
+}
 
+.hero-img img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
 }
 
 @media (max-width: 770px){
@@ -97,7 +95,7 @@
     margin: 0;
     padding: 0;
     position: relative;
-    left: -90px;
+    left: px;
     top: 0;
 }
 
@@ -180,9 +178,6 @@
         height: 100%;
     }
 }
-
-
-
 
 
 footer{
